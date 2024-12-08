@@ -8,7 +8,7 @@ We evaluate our model on three main datasets: MSVD, MSR-VTT, VaTex
 ![](KG-VCN.jpg)
 
 
-## Installation
+## Prepare
 
 **1. Create python environment (optional) <br>**
 conda create -n kgvcn python=3.8 <br>
@@ -18,6 +18,10 @@ source activate kgvcn <br>
 pip install -r requirements.txt <br>
 
 **3. Download captioneval [here](https://pan.baidu.com/s/1QX9RpCyX-J31XZyZH2uHlw?pwd=qwer) <br>**
+
+**4. Download Datasets: [MSVD](https://pan.baidu.com/s/1QX9RpCyX-J31XZyZH2uHlw?pwd=qwer) <br>**,
+[MSR-VTT](https://pan.baidu.com/s/1QX9RpCyX-J31XZyZH2uHlw?pwd=qwer) <br>**,
+[vatex](https://pan.baidu.com/s/1QX9RpCyX-J31XZyZH2uHlw?pwd=qwer) <br>**
 
 ## Dataset structure
 ```bash
@@ -31,23 +35,12 @@ pip install -r requirements.txt <br>
         vatex_test_references.txt/
 ```
 
-## Dataset download
-
-### MSVD
-
-
-### MSR-VTT
-
-
-### VaTex
-
-
 ## Traning
 you can train this model directly run this file: train_debug.py
 
 ## Acknowledgement
 
-This repo is adapted from [DLSG](https://github.com/baiyang4/D-LSG-Video-Caption)
+This repo is adapted from [DLSG](https://github.com/baiyang4/D-LSG-Video-Caption). Thank for their work!
 
 
 ## Reference
