@@ -18,6 +18,8 @@ source activate kgvcn
 # Install python dependencies
 pip install -r requirements.txt
 
+# Download captioneval [here](https://pan.baidu.com/s/1QX9RpCyX-J31XZyZH2uHlw?pwd=qwer)
+
 ## Code structure
 ```bash
 # Store images, features, and annotations
