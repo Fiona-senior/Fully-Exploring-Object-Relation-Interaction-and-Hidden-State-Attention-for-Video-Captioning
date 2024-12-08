@@ -25,7 +25,6 @@ pip install -r requirements.txt <br>
 
 ## model structure
 ```bash
-# datasets' features, and annotations
 ./captioneval
 ./models
 ./results
