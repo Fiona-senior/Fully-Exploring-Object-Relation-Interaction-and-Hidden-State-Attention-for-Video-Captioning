@@ -10,18 +10,17 @@ We evaluate our model on three main datasets: MSVD, MSR-VTT, VaTex
 
 ## Installation
 
-```
-# Create python environment (optional)
-conda create -n kgvcn python=3.8
-source activate kgvcn
+**1. Create python environment (optional) <br>**
+conda create -n kgvcn python=3.8 <br>
+source activate kgvcn <br>
 
-# Install python dependencies
-pip install -r requirements.txt
+**2. Install python dependencies <br>**
+pip install -r requirements.txt <br>
 
-# Download captioneval [here](https://pan.baidu.com/s/1QX9RpCyX-J31XZyZH2uHlw?pwd=qwer)
+**3. Download captioneval [here](https://pan.baidu.com/s/1QX9RpCyX-J31XZyZH2uHlw?pwd=qwer) <br>**
 
 ## Code structure
-```bash
+
 # Store images, features, and annotations
 ./datasets
     COCO/
