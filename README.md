@@ -37,10 +37,9 @@ pip install -r requirements.txt <br>
 
 
 ### MSR-VTT
-Please refer to `feature_extraction` for more details.
+
 
 ### VaTex
-Please go to [VALUE](https://github.com/VALUE-Leaderboard/DataRelease) to download the ViT processed data.
 
 
 ## Traning
