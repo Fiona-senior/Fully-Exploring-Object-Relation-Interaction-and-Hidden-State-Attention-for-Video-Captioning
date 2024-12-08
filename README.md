@@ -5,25 +5,18 @@ Since a video's description is typically composed of the objects present and the
 
 We evaluate our model on three main datasets: MSVD, MSR-VTT, VaTex
 
-
+![](KG-VCN.jpg)
 
 
 ## Installation
 
 ```
 # Create python environment (optional)
-conda create -n vlt5 python=3.8
-source activate vlt5
+conda create -n kgvcn python=3.8
+source activate kgvcn
 
 # Install python dependencies
 pip install -r requirements.txt
-
-# Download T5/BART backbone checkpoint
-python download_backbones.py
-
-# For MSCOCO captioning evaluation (optional; for captioning only)
-python -c "import language_evaluation; language_evaluation.download('coco')"
-```
 
 ## Code structure
 ```bash
