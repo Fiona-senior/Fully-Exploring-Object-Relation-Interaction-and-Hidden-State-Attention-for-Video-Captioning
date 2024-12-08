@@ -23,9 +23,14 @@ pip install -r requirements.txt <br>
 [MSR-VTT](https://pan.baidu.com/s/1QX9RpCyX-J31XZyZH2uHlw?pwd=qwer) <br>**,
 [vatex](https://pan.baidu.com/s/1QX9RpCyX-J31XZyZH2uHlw?pwd=qwer) <br>**
 
-## Dataset structure
+## model structure
 ```bash
 # datasets' features, and annotations
+./captioneval
+./models
+./results
+./runs
+./utils
 ./data
     MSR-VTT/
     MSVD/
